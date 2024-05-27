@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="layout/dashboard-2.css">
+</head>
+<body>
+    <main>
+        <h1 class="name-head">List Books</h1>
+        <section class="form-1">
+            <h2 class="head-1">Add Books</h2>
+
+            <form id="add-book">
+
+                <div class="add">
+                    <label for="addBooksTitle">Judul</label>
+                    <input type="text" id="addBooksTitle">
+                </div>
+
+                <div class="add">
+                    <label for="addBooksAuthor">Penulis</label>
+                    <input type="text" id="addBooksAuthor">
+                </div>
+
+                <div class="add">
+                    <label for="addBooksDate">Tanggal</label>
+                    <input type="date" id="addBooksDate">
+                </div>
+
+                <div class="add-inline">
+                    <label for="addBooksComplate" class="inline-checkbox">Complate</label>
+                    <input type="checkbox" id="addBooksComplate">
+                    <!-- <label for="addBooksNoComplate" class="inline-checkbox">Not Finished Yet</label> -->
+                    <!-- <input type="checkbox" id="addBooksNoComplate" required> -->
+                </div>
+
+                <button id="submit" class="button-add" >Add to bookshelf</button>
+                <a href="list.php" class="list-done">Cek Disini kalau sudah masuk</a>
+            </form>
+        </section>
+
+
+
+    </main>
+    <script src="components/main.js"></script>
+</body>
+</html>

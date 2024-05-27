@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+:root{
+    --white-color:#fff;
+    --black-color:#000;
+    --primary-color:#BED7DC;
+    --second-color:#B3C8CF;
+
+    --poppins-font:"Poppins", sans-serif;
+    --ubuntu-font:"Ubuntu", sans-serif;
+    --mulish-font:"Mulish", sans-serif;
+    --munito-font:"Nunito", sans-serif;
+
+    --bold:700;
+    --medium:400;
+    --s: .15em;
+    --c: #1095c1;
+}
+*,html,body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+.gap{
+    margin-top: 5%;
+}
+.bookshelf-2{
+    border: 2px solid var(--black-color);
+    margin: 3% 30% 3% 30%;
+    border-radius: 5px;
+    padding:8px 16px 16px 16px;
+}
+.header-shelf-2{
+    text-align: center;
+}
+.book-list{
+    padding : 16px;
+}
+.book-item{
+    border: 2px solid var(--black-color);
+    border-radius: 5px;
+    margin: 10px 0;
+    padding: 8px 16px 16px 16px;
+}
+.done,.remove{
+    padding: 5px;
+    cursor: pointer;
+    border: 0;
+    margin: 0 5px 0 0;
+    border-radius: 5px;
+}
+.done{
+    background-color: var(--c);
+}
+.remove{
+    background-color: red;
+}

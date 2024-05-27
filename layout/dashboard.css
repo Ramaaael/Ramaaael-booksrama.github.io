@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+:root{
+    --white-color:#fff;
+    --black-color:#000;
+    --primary-color:#BED7DC;
+    --second-color:#B3C8CF;
+    --thred-color:#F97300;
+
+    --poppins-font:"Poppins", sans-serif;
+    --ubuntu-font:"Ubuntu", sans-serif;
+    --mulish-font:"Mulish", sans-serif;
+    --munito-font:"Nunito", sans-serif;
+
+    --bold:700;
+    --medium:400;
+
+    --c: #1095c1;
+
+}
+*,html,body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: var(--poppins-font);
+}
+
+.list-isi{
+    margin-top:8% ;
+}
+.intro-p,.to-list,.name-h1{
+    position: relative;
+    margin: 0% 45% 0 10%;
+}
+.intro-p{
+    text-align: justify;
+}
+.to-list{
+    font-family: var(--poppins-font);
+    color: var(--c);
+    font-weight: var(--bold);
+    text-decoration-color:var(--thred-color) ;
+}
+.to-list:hover{
+    color: var(--thred-color);
+    text-decoration-color: var(--c);
+    transition: .3s;
+}
+
+.button-logout{
+    color: var(--black-color);
+    background-color: var(--c);
+    padding: 8px;
+    text-align: center;
+    border: 1px solid var(--primary-color);
+    border-radius: 12px;
+    font-weight:500;
+}
+.button-logout:hover{
+    opacity: .7;
+    transition: .3s;
+}
+.img-dash{
+    width:300px;
+    height:400px;
+    float:right;
+    margin:0 15% 0 60%;
+    position: absolute;
+    border: 1px solid black;
+    border-radius: 3px 12% 3px 12px;
+    box-shadow: 0 0 27px rgb(96 96 96 / 34%);
+}
